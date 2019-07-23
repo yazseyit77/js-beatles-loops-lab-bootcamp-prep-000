@@ -17,5 +17,5 @@ const facts = [
 
 var i = 0;
 while(i < facts.length){
-  return i + "!!!";
+  console.log(i++);
 }
