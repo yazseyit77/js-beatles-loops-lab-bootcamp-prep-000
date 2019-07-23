@@ -1,11 +1,10 @@
 // add solution here
-const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
-const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
-
 function theBeatlesPlay(){
+  var array = [];
   for(var i = 0; i < musicians.length; i++){
-      return `${musicians[i]} plays ${instruments[i]}`;
+      array.push(musicians[i] + ' plays ' + instruments[i]);
   }
+  return array;
 }
 
 const facts = [
@@ -14,23 +13,22 @@ const facts = [
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
+var i = 0;
 
 function johnLennonFacts(){
-  var i = 0;
-  while(i < facts.length){
-  return `${facts[i]}!!!`;
+  while(facts[i]){
+  return `${facts[i]}!!! + <br>`;
     i++;
   }
 }
 
 var type = ["I love the Beatles!"];
-function iLoveTheBeatles(num){
-  if(num === 7){
-    for(var i = 0; i <= 8; i++){
-      return i;
-    } if(num === 17){
-      for(var i = 0; i <= 18; i++){
-        return i;
+
+for(var i = 0; i <= 8; i++){
+  console.log(type[i]);
+    function iLoveTheBeatles(num){
+      if(num === 7){
+      return type;
     }
   }
 }
