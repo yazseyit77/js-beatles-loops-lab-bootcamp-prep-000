@@ -18,7 +18,16 @@ const facts = [
 function johnLennonFacts(){
   var i = 0;
   while(i < facts.length){
-    console.log(facts[i]);
+  return `${facts[i]}!!!`;
     i++;
+  }
+}
+
+var type = "I love the Beatles!"
+function iLoveTheBeatles(num){
+  if(num === 7){
+    for(var i = 0; i < 9; i++){
+      console.log(type[i]);
+    }
   }
 }
