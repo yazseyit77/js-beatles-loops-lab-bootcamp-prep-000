@@ -15,7 +15,10 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 
-var i = 0;
-while(i < facts.length){
-  console.log(i++);
+function johnLennonFacts(){
+  var i = 0;
+  while(i < facts.length){
+    console.log(i++);
+  }
+  return facts[i];
 }
