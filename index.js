@@ -23,11 +23,14 @@ function johnLennonFacts(){
   }
 }
 
-var type = "I love the Beatles!"
+var type = ["I love the Beatles!"];
 function iLoveTheBeatles(num){
   if(num === 7){
-    for(var i = 0; i < 9; i++){
-      console.log(type[i]);
+    for(var i = 0; i <= 8; i++){
+      return i;
+    } if(num === 17){
+      for(var i = 0; i <= 18; i++){
+        return i;
     }
   }
 }
