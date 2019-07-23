@@ -17,13 +17,11 @@ function johnLennonFacts(facts){
   return results;
 }
 
-var type = ["I love the Beatles!"];
-
-for(var i = 0; i <= 8; i++){
-  console.log(type[i]);
-    function iLoveTheBeatles(num){
-      if(num === 7){
-      return type;
-    }
-  }
+function iLoveTheBeatles(num){
+  var array = [];
+  do {
+    array.push("I love the Beatles!");
+    num++;
+  }while(num < 15);
+  return array;
 }
