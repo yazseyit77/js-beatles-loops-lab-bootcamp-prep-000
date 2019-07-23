@@ -14,7 +14,7 @@ function johnLennonFacts(facts){
     results.push(facts[i] + "!!!");
     i++;
   }
-  return
+  return results;
 }
 
 var type = ["I love the Beatles!"];
